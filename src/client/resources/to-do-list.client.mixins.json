@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "asia.ley.mixin.client",
+	"package": "space.leonyew.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

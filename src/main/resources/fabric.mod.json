@@ -1,25 +1,25 @@
 {
 	"schemaVersion": 1,
-	"id": "to-do-list",
+	"id": "ley-to-do-list",
 	"version": "${version}",
 	"name": "To-Do List",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Minecraft Fabric Mod, ingame To-Do List .",
 	"authors": [
-		"Me!"
+		"LeonYew"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/LeonYew-SWPU/to-do-list-template-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/to-do-list/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
-			"asia.ley.ToDoList"
+			"space.leonyew.ToDoList"
 		],
 		"client": [
-			"asia.ley.ToDoListClient"
+			"space.leonyew.ToDoListClient"
 		]
 	},
 	"mixins": [
@@ -31,7 +31,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21",
+		"minecraft": "~1.21.6",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
